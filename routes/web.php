@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     echo 'Hello World';
-// });
+Route::get('/', function () {
+    echo 'Hello World';
+});
 
 
 Route::get('/', [HomeController::class, 'index']);
